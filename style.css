@@ -83,10 +83,12 @@
     justify-content: center;
     /* border: 2px solid saddlebrown; */
 }
- .plant:hover{
-        transform: scale(1.02);
-        background-color: snow;
-    }
+
+.plant:hover {
+    transform: scale(1.02);
+    background-color: snow;
+}
+
 .plant-pic {
     width: 90%;
 }
@@ -147,6 +149,87 @@
     margin-top: 15px;
 }
 
+/* latest deal saction  */
+
+
+
+.latest-txt {
+    text-align: center;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.latest-txt h1 {
+    font-size: 60px;
+}
+
+.l {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.latest-pic {
+    display: flex;
+    max-width: 1150px;
+    height: 425px;
+    margin: 100px auto 0px;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.bloom {
+    background-image: url(assets/deal-bloom.png);
+    background-size: auto;
+    width: 367px;
+    height: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ana {
+    background-image: url(assets/deal-ana.png);
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 367px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.zabo {
+    background-image: url(assets/deal-zabo.png);
+    background-size: auto;
+    width: 750px;
+    height: 425px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-txt {
+    color: white;
+    font-size: 25px;
+}
+
+.lr-txt {
+    color: white;
+    font-size: 40px;
+}
+
+
+
 
 
 /* join section */
@@ -187,7 +270,9 @@ input {
     color: white;
     height: 58px;
 }
-.btn-sbs:hover,.btn-cart:hover{
+
+.btn-sbs:hover,
+.btn-cart:hover {
     transform: scale(1.02);
 }
 
@@ -236,16 +321,21 @@ input {
     list-style: none;
     color: rgb(98, 95, 95);
 }
-.bar1 a:hover, .bar2 a:hover{
+
+.bar1 a:hover,
+.bar2 a:hover {
     transform: scale(1.05);
 }
+
 .icon {
     height: 36px;
     width: 36px;
 }
-.icon:hover{
-        transform: scale(1.2);
+
+.icon:hover {
+    transform: scale(1.2);
 }
+
 .social {
     display: flex;
     gap: 15px;
@@ -341,10 +431,12 @@ input {
         justify-content: center;
         /* border: 2px solid saddlebrown; */
     }
-    .plant:hover{
+
+    .plant:hover {
         transform: scale(1.02);
         background-color: snow;
     }
+
     .plant-pic {
         width: 90%;
     }
@@ -401,88 +493,171 @@ input {
         flex-direction: column;
         /* border: 2px solid saddlebrown; */
     }
+
     .lover h1 {
         font-size: 40px;
     }
+
     .list {
         margin-left: 30px;
 
     }
+
     .list ul li {
         margin-top: 15px;
     }
 
 
+
+
+    /* latest deal saction  */
+
+
+
+    .latest-txt {
+        text-align: center;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .latest-txt h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .latest-pic {
+        display: flex;
+        max-width: 90vw;
+        height: auto;
+        margin: 80px auto 0px;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .bloom {
+        background-image: url(assets/deal-bloom.png);
+        background-size: auto;
+        width: 367px;
+        height: 200px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ana {
+        background-image: url(assets/deal-ana.png);
+        background-size: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 367px;
+        height: 200px;
+        border-radius: 30px;
+    }
+
+    .zabo {
+        background-image: url(assets/deal-zabo.png);
+        background-size: auto;
+        width: 367px;
+        height: 200px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .l-txt {
+        color: white;
+        font-size: 25px;
+    }
+
+    .lr-txt {
+        color: white;
+        font-size: 40px;
+    }
+
+
     /* join section */
 
-.join {
-    background-image: url(assets/news-letter-bg.png);
-    background-size: cover;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .join {
+        background-image: url(assets/news-letter-bg.png);
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.join h1 {
-    font-size: 2em;
-    color: white;
-}
+    .join h1 {
+        font-size: 2em;
+        color: white;
+    }
 
-.action {
-    display: flex;
-    gap: 0px;
-    width: 80vw;
-    margin: 0 auto;
-}
+    .action {
+        display: flex;
+        gap: 0px;
+        width: 80vw;
+        margin: 0 auto;
+    }
 
-input {
-    width: 40vw;
-    height: 10px;
-   
-}
+    input {
+        width: 40vw;
+        height: 10px;
 
-.btn-sbs {
-    background-color: #E95A08;
-    font-size: .8em;
-    padding: 10px 20px;
-    margin: 0;
-    border-radius: 1px;
-    color: white;
-    height: 54px;
-    width: 30vw;
-}
+    }
 
-
-/* footer saction */
-
-.footer {
-
-    width: 90vw;
-    height: auto;
-    margin: 60px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: space-between;
-
-}
-
-.brand {
-    width: 90vw;
-}
-.c{
-    font-size: 18px;
-}
-
-.social {
-    display: flex;
-    gap: 15px;
-}
+    .btn-sbs {
+        background-color: #E95A08;
+        font-size: .8em;
+        padding: 10px 20px;
+        margin: 0;
+        border-radius: 1px;
+        color: white;
+        height: 54px;
+        width: 30vw;
+    }
 
 
+    /* footer saction */
 
+    .footer {
+
+        width: 90vw;
+        height: auto;
+        margin: 60px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+
+    }
+
+    .brand {
+        width: 90vw;
+    }
+
+    .c {
+        font-size: 18px;
+    }
+
+    .social {
+        display: flex;
+        gap: 15px;
+    }
 
 
 
@@ -490,7 +665,10 @@ input {
 
 
 
-    
+
+
+
+
 
 
 
