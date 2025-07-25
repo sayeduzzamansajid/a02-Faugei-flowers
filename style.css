@@ -548,7 +548,7 @@ input {
         background-size: auto;
         width: 367px;
         height: 200px;
-        border-radius: 30px;
+        border-radius: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -564,7 +564,7 @@ input {
         align-items: center;
         width: 367px;
         height: 200px;
-        border-radius: 30px;
+        border-radius: 20px;
     }
 
     .zabo {
@@ -572,7 +572,7 @@ input {
         background-size: auto;
         width: 367px;
         height: 200px;
-        border-radius: 30px;
+        border-radius: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -586,7 +586,7 @@ input {
 
     .lr-txt {
         color: white;
-        font-size: 40px;
+        font-size: 25px;
     }
 
 
