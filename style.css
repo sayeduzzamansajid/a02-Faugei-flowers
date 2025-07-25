@@ -1,8 +1,10 @@
-
+main{
+    margin-top: 100px;
+}
 .nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 .func, .menu ul{
@@ -11,7 +13,7 @@
     list-style: none;
     font-size: 24px;
 }
-.menu a, .curt a{
+.menu a, .cart a{
     text-decoration: none;
     color: black;
 }
@@ -23,9 +25,10 @@
 
 .banner{
     display: flex;
-    width: 1140px;
+    width: 1250px;
     height: 500px;
     margin: 70px auto 0px;
+    justify-content: space-between;
     align-items: end;
 }
 .b-text{
@@ -38,10 +41,57 @@
     font-size: 65px;
     font-weight: bold;
 }
-.b-text p{
+
+.org {
+    color: #E95A08;
+}
+.desc{
     font-size: 22px;
     color: gray;
 }
-.title span {
-    color: #E95A08;
+
+
+/* our plant */
+
+
+
+.our-plants{
+    width: 1250px;
+    margin: 0 auto;
+    border: 2px solid saddlebrown;
+
 }
+.plant-container{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    row-gap: 25px;
+    margin-top: 50px;
+    justify-content: center;
+    border: 2px solid saddlebrown;
+}
+.head{
+    text-align: center;
+}
+.head p{
+    width: 80%;
+    margin: 0 auto;
+}
+.name, .price{
+    text-align: center;
+}
+.price{
+    font-weight:900;
+    font-size: 25px;
+}
+.btn-cart{
+    width: 90%;
+    background-color: #E95A08;
+    font-size: large;
+    padding: 10px;
+    border-radius: 1px;
+    color: white;
+}
+
+
+/* Plants Lover */
+
