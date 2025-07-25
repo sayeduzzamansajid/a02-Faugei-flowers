@@ -1,0 +1,47 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.func, .menu ul{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    font-size: 24px;
+}
+.menu a, .curt a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* banner saction */
+
+
+.banner{
+    display: flex;
+    width: 1140px;
+    height: 500px;
+    margin: 70px auto 0px;
+    align-items: end;
+}
+.b-text{
+    width: 570px;
+}
+.b-pic{
+    width: 570px;
+}
+.title{
+    font-size: 65px;
+    font-weight: bold;
+}
+.b-text p{
+    font-size: 22px;
+    color: gray;
+}
+.title span {
+    color: #E95A08;
+}
