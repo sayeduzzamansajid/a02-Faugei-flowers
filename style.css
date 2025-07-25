@@ -83,7 +83,10 @@
     justify-content: center;
     /* border: 2px solid saddlebrown; */
 }
-
+ .plant:hover{
+        transform: scale(1.02);
+        background-color: snow;
+    }
 .plant-pic {
     width: 90%;
 }
@@ -184,7 +187,9 @@ input {
     color: white;
     height: 58px;
 }
-
+.btn-sbs:hover,.btn-cart:hover{
+    transform: scale(1.02);
+}
 
 
 /* footer saction */
@@ -231,12 +236,16 @@ input {
     list-style: none;
     color: rgb(98, 95, 95);
 }
-
+.bar1 a:hover, .bar2 a:hover{
+    transform: scale(1.05);
+}
 .icon {
     height: 36px;
     width: 36px;
 }
-
+.icon:hover{
+        transform: scale(1.2);
+}
 .social {
     display: flex;
     gap: 15px;
@@ -332,7 +341,10 @@ input {
         justify-content: center;
         /* border: 2px solid saddlebrown; */
     }
-
+    .plant:hover{
+        transform: scale(1.02);
+        background-color: snow;
+    }
     .plant-pic {
         width: 90%;
     }
@@ -407,7 +419,6 @@ input {
     background-image: url(assets/news-letter-bg.png);
     background-size: cover;
     height: 300px;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
