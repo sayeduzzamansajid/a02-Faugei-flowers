@@ -120,3 +120,40 @@
 .list ul li{
     margin-top: 15px;
 }
+
+
+
+/* join section */
+
+.join{
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join h1{
+    font-size: 60px;
+    color: white;
+}
+.action{
+    display: flex;
+    gap: 0px;
+    width: 850px;
+}
+input{
+    width: 6500px;
+    height: 15px;
+    padding: 20px;
+}
+.btn-sbs{
+    background-color: #E95A08;
+    font-size: large;
+    padding: 20px 60px;
+    margin: 0;
+    border-radius: 1px;
+    color: white;
+    height: 58px;
+}
