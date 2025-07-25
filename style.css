@@ -1,22 +1,27 @@
-.main{
+.main {
     display: flex;
     flex-direction: column;
     gap: 100px;
     margin-top: 100px;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     max-width: 1250px;
     margin: 0 auto;
 }
-.func, .menu ul{
+
+.func,
+.menu ul {
     display: flex;
     gap: 48px;
     list-style: none;
     font-size: 24px;
 }
-.menu a, .cart a{
+
+.menu a,
+.cart a {
     text-decoration: none;
     color: black;
 }
@@ -26,7 +31,7 @@
 /* banner saction */
 
 
-.banner{
+.banner {
     display: flex;
     width: 1250px;
     height: 500px;
@@ -34,13 +39,17 @@
     justify-content: space-between;
     align-items: end;
 }
-.b-text{
+
+.b-text {
     width: 570px;
 }
-.b-pic{
+
+.b-pic,
+.b-img {
     width: 570px;
 }
-.title{
+
+.title {
     font-size: 65px;
     font-weight: bold;
 }
@@ -48,7 +57,8 @@
 .org {
     color: #E95A08;
 }
-.desc{
+
+.desc {
     font-size: 22px;
     color: gray;
 }
@@ -58,13 +68,14 @@
 
 
 
-.our-plants{
+.our-plants {
     width: 1250px;
     margin: 0 auto;
     /* border: 2px solid saddlebrown; */
 
 }
-.plant-container{
+
+.plant-container {
     display: grid;
     grid-template-columns: repeat(4, 300px);
     row-gap: 25px;
@@ -72,21 +83,31 @@
     justify-content: center;
     /* border: 2px solid saddlebrown; */
 }
-.head{
+
+.plant-pic {
+    width: 90%;
+}
+
+.head {
     text-align: center;
 }
-.head p{
+
+.head p {
     width: 80%;
     margin: 0 auto;
 }
-.name, .price{
+
+.name,
+.price {
     text-align: center;
 }
-.price{
-    font-weight:900;
+
+.price {
+    font-weight: 900;
     font-size: 25px;
 }
-.btn-cart{
+
+.btn-cart {
     width: 90%;
     background-color: #E95A08;
     font-size: large;
@@ -98,26 +119,28 @@
 
 /* Plants Lover */
 
-.plants-lover{
+.plants-lover {
     width: 1250px;
     margin: 0 auto;
     display: flex;
-    height: 600px;
     justify-content: space-between;
     align-items: center;
 }
 
-.flower{
+.flower {
     height: 600px;
     width: 540px;
 }
-.lover{
+
+.lover {
     width: 540px;
 }
-.lover h1{
+
+.lover h1 {
     font-size: 60px;
 }
-.list ul li{
+
+.list ul li {
     margin-top: 15px;
 }
 
@@ -125,7 +148,7 @@
 
 /* join section */
 
-.join{
+.join {
     background-image: url(assets/news-letter-bg.png);
     background-size: cover;
     height: 550px;
@@ -134,21 +157,25 @@
     justify-content: center;
     align-items: center;
 }
-.join h1{
+
+.join h1 {
     font-size: 60px;
     color: white;
 }
-.action{
+
+.action {
     display: flex;
     gap: 0px;
     width: 850px;
 }
-input{
+
+input {
     width: 6500px;
     height: 15px;
     padding: 20px;
 }
-.btn-sbs{
+
+.btn-sbs {
     background-color: #E95A08;
     font-size: large;
     padding: 20px 60px;
@@ -162,7 +189,7 @@ input{
 
 /* footer saction */
 
-.footer{
+.footer {
 
     width: 1250px;
     height: 280px;
@@ -172,36 +199,291 @@ input{
     justify-content: space-between;
 
 }
-.brand{
+
+.brand {
     width: 300px;
 }
-.bar1 ul{
+
+.bar1 ul {
     height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.bar1 a,.bar1 li{
+
+.bar1 a,
+.bar1 li {
     text-decoration: none;
     list-style: none;
     color: rgb(98, 95, 95);
 }
-.bar2 ul{
+
+.bar2 ul {
     height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.bar2 a,.bar2 li{
+
+.bar2 a,
+.bar2 li {
     text-decoration: none;
     list-style: none;
     color: rgb(98, 95, 95);
 }
-.icon{
+
+.icon {
     height: 36px;
     width: 36px;
 }
-.social{
+
+.social {
     display: flex;
     gap: 15px;
+}
+
+
+@media screen and (max-width:576px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+
+
+
+    /* banner saction */
+
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        margin-top: 60px;
+        justify-content: space-between;
+        align-items: end;
+        gap: 40px;
+    }
+
+    .b-text {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .b-pic,
+    .b-img {
+        width: 100vw;
+    }
+
+    .title {
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .org {
+        color: #E95A08;
+    }
+
+    .desc {
+        font-size: 22px;
+        color: gray;
+    }
+
+
+
+    /* our plant */
+
+
+
+    .our-plants {
+        max-width: 90vw;
+        margin: 0 auto;
+        /* border: 2px solid saddlebrown; */
+
+    }
+
+    .plant-container {
+        display: grid;
+        width: 90vw;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: calc((100vw - 90vw) / 4);
+        row-gap: 25px;
+        margin-top: 50px;
+        justify-content: center;
+        /* border: 2px solid saddlebrown; */
+    }
+
+    .plant-pic {
+        width: 90%;
+    }
+
+    .head {
+        text-align: center;
+    }
+
+    .head p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .name,
+    .price {
+        text-align: center;
+    }
+
+    .price {
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .btn-cart {
+        width: 90%;
+        background-color: #E95A08;
+        font-size: large;
+        padding: 10px;
+        border-radius: 1px;
+        color: white;
+    }
+
+
+
+    /* Plants Lover */
+
+    .plants-lover {
+        width: 90vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .flower {
+        height: 100%;
+        width: 100%;
+    }
+
+    .lover {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid saddlebrown; */
+    }
+    .lover h1 {
+        font-size: 40px;
+    }
+    .list {
+        margin-left: 30px;
+
+    }
+    .list ul li {
+        margin-top: 15px;
+    }
+
+
+    /* join section */
+
+.join {
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join h1 {
+    font-size: 2em;
+    color: white;
+}
+
+.action {
+    display: flex;
+    gap: 0px;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+input {
+    width: 40vw;
+    height: 10px;
+   
+}
+
+.btn-sbs {
+    background-color: #E95A08;
+    font-size: .8em;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 1px;
+    color: white;
+    height: 54px;
+    width: 30vw;
+}
+
+
+/* footer saction */
+
+.footer {
+
+    width: 90vw;
+    height: auto;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.brand {
+    width: 90vw;
+}
+.c{
+    font-size: 18px;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
 }
