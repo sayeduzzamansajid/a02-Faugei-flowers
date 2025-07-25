@@ -1,8 +1,0 @@
-@media screen and (max-width:576px) {
-    .nav{
-        width: 90vw;
-    }
-    .menu{
-        display: none;
-    }
-}
